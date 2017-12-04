@@ -1,0 +1,18 @@
+# Certificates
+## must hove the cert name as the key, optionaly inclued "port:" and "status:"
+# port defaults to 443
+# status can be 'enabled', 'disabled' or 'deleted'
+---
+# domain.tld:
+# www.domain.tld:
+# zabbix.domain.tld:
+#   port: 8000
+# old.domain.tld:
+#   port: 8080
+#   status: deleted
+# mail.domain.tld:
+#   port: 995
+#   status: enabled
+# secure.domain.tld:
+#   port: 443
+#   status: disabled

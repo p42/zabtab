@@ -1,0 +1,9 @@
+# Coniig
+---
+zabbix:
+  url: http://zabbix.domain.com/api_jsonrpc.php
+  user: zabtab
+  password: secret
+certificates:
+  host: Certificate Monitor
+  application: Certificates
